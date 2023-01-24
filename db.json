@@ -1,0 +1,519 @@
+{
+  "seller": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 2
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 3
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 4
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 5
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 6
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 7
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 8
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 9
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 10
+    },
+    {
+      "name": "yassin",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 11
+    },
+    {
+      "name": "kkk",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "name": "yassine sallam",
+      "password": "dd",
+      "email": "zszz",
+      "id": 15
+    },
+    {
+      "name": "yassine sallam",
+      "password": "ff",
+      "email": "zsdd",
+      "id": 16
+    },
+    {
+      "name": "yassine sallam",
+      "password": "ff",
+      "email": "zsdd",
+      "id": 17
+    },
+    {
+      "name": "yassine sallam",
+      "password": "ff",
+      "email": "zsdd",
+      "id": 18
+    },
+    {
+      "name": "yassine sallam",
+      "password": "ff",
+      "email": "zsdd",
+      "id": 19
+    },
+    {
+      "name": "yassine sallam",
+      "password": "ff",
+      "email": "zsdd",
+      "id": 20
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 21
+    },
+    {
+      "name": "yassine sallam",
+      "password": "YASSIN",
+      "email": "sallamyassine86@gmail.com",
+      "id": 22
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 23
+    },
+    {
+      "name": "yassine sallam",
+      "password": "jjj",
+      "email": "jhh",
+      "id": 24
+    },
+    {
+      "name": "hhdhhs",
+      "password": "zjjjzdkf",
+      "email": "jfjhfzjjfzzfooo",
+      "id": 25
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 26
+    },
+    {
+      "name": "souad",
+      "password": "souad@souad",
+      "email": "souad",
+      "id": 27
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 28
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 29
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 30
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yyyy",
+      "email": "sallamyassine86@gmail.com",
+      "id": 31
+    },
+    {
+      "name": "souad",
+      "password": "HHHHHH",
+      "email": "souad@souad",
+      "id": 32
+    },
+    {
+      "name": "souad",
+      "password": "SOUAD",
+      "email": "souad@souad",
+      "id": 33
+    },
+    {
+      "name": "yassine sallam",
+      "password": "dd",
+      "email": "szs",
+      "id": 34
+    },
+    {
+      "name": "yassine sallam",
+      "password": "eree",
+      "email": "dd",
+      "id": 35
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 36
+    },
+    {
+      "name": "yassine sallam",
+      "password": "hhh",
+      "email": "sallamyassine86@gmail.com",
+      "id": 37
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 38
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 39
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 40
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 41
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 42
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 43
+    },
+    {
+      "name": "souad",
+      "password": "yassin",
+      "email": "souad@souad",
+      "id": 44
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 45
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 46
+    },
+    {
+      "name": "yassine",
+      "password": "sallam",
+      "email": "Erraissi12341@gmail.com",
+      "id": 47
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 48
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yasin",
+      "email": "sallamyassine86@gmail.com",
+      "id": 49
+    },
+    {
+      "name": "yassine sallam",
+      "password": "yassine",
+      "email": "khawlasallam@email.com",
+      "id": 50
+    },
+    {
+      "name": "souad",
+      "password": "souad",
+      "email": "souad@souad",
+      "id": 51
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 12",
+      "price": "200000dh",
+      "category": "tele",
+      "color": "hhhhh",
+      "description": "yassine sallam",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 13
+    },
+    {
+      "name": "ordinateur",
+      "price": "300000",
+      "category": "pc ",
+      "color": "white",
+      "description": "12 gben ram 256 gb SSD 12 G",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": 14
+    },
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 1
+    },
+    {
+      "name": "I phone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An Apple Product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "50000",
+      "category": "Laptop",
+      "color": "black",
+      "description": "Hp laptop for student and professionals",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": 3
+    },
+    {
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "id": 7
+    }
+  ],
+  "user": [
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 2
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 3
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 4
+    },
+    {
+      "name": "souad",
+      "email": "sallamyassine86@gmail.com",
+      "password": "souad",
+      "id": 5
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 6
+    },
+    {
+      "name": "souad",
+      "email": "sallamyassine86@gmail.com",
+      "password": "souad",
+      "id": 7
+    },
+    {
+      "name": "souad",
+      "email": "sallamyassine86@gmail.com",
+      "password": "souad",
+      "id": 8
+    },
+    {
+      "name": "souad",
+      "email": "sallamyassine86@gmail.com",
+      "password": "souad",
+      "id": 9
+    },
+    {
+      "name": "souad",
+      "email": "sallamyassine86@gmail.com",
+      "password": "souad",
+      "id": 10
+    },
+    {
+      "name": "souad",
+      "email": "sallamyassine86@gmail.com",
+      "password": "souad",
+      "id": 11
+    },
+    {
+      "name": "souad",
+      "email": "souad@souad",
+      "password": "soaud",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "souad@souad",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "souad",
+      "email": "souad@souad",
+      "password": "souad",
+      "id": 14
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 15
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 16
+    },
+    {
+      "name": "souad",
+      "email": "souad@souad",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "yassin",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 18
+    },
+    {
+      "name": "souad",
+      "email": "souad@souad",
+      "password": "SOUAD",
+      "id": 19
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassin",
+      "id": 20
+    },
+    {
+      "name": "yassine sallam",
+      "email": "sallamyassine86@gmail.com",
+      "password": "yassine",
+      "id": 21
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 7
+    }
+  ],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    }
+  ]
+}
