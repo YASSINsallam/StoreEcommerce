@@ -7,11 +7,25 @@ img{
     height: 100px;
     width: 100px;
 }
-table td , table th{
-    border: 1px solid blueviolet;
+/* table td , table th{
+    border: 3px solid blueviolet;
     padding: 10px;
     min-width: 160pxs;
-}
+} */
 .adjust-update-link{
     margin-left: 10px;
 }
+table td, table th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  table td:hover {
+    background-color: #f8f9fa;
+  }

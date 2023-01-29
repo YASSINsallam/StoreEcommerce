@@ -1,0 +1,35 @@
+form {
+    margin-top: 10%;
+    width: 500px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  img {
+    /* previous styles */
+    width: 30%; /* or other values */
+    box-shadow: 0px 10px 20px #ddd;
+    border-radius: 20px;
+    filter: brightness(80%);
+    transition: all 0.3s;
+    margin-left: 60%;
+    margin-top: 0%;
+  
+    margin: 0px;
+    margin-bottom: 100%;
+    float: right;
+    transform: translate(0px,0%);
+    margin-right: 20%;
+  }
+  img:hover {
+    box-shadow: 0px 20px 40px #ddd;
+    filter: brightness(100%);
+    transform: scale(1.1);
+  }
+  
+  

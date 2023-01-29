@@ -42,14 +42,18 @@
       ></textarea>
       
       <input
-      type="text"
+      type="file"
       class="form-input"
+      (change)=" onFileSelected($event) " #fileInput
       placeholder="Enter Product Image URL"
       name="image"
       ngModel
       />
+      <button type="submit" (click)="onSubmit()">Upload</button>
+      
+      </form>
       <button class="form-button">Add Product</button>
       
     </form>
-    </form>
+    
 </div>

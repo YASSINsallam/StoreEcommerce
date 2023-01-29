@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit{
   sellerName:string=" ";
   searchresult:undefined|product[]
   userName:string="";
-  cartitms:number= 0;
+  cartItems:number= 0;
   constructor(private route:Router ,private product:ProductService){}
 ngOnInit(): void {
   this.route.events.subscribe((val: any) => {
@@ -21,14 +21,14 @@ ngOnInit(): void {
        let sellerStore=localStorage.getItem('seller');
        let sellerData =sellerStore && JSON.parse(sellerStore)[0];
        this.sellerName=sellerData.name;
-        this.menuType = 'seller';
+        this.menuType='seller';
       }
       else if(localStorage.getItem('user')){
         let userStore = localStorage.getItem('user');
         let userData = userStore && JSON.parse(userStore);
         this.userName= userData.name;
         this.menuType='user';
-      
+    
       }
        else {
         this.menuType = 'default';
@@ -37,10 +37,10 @@ ngOnInit(): void {
   });
   let cartData= localStorage.getItem('localCart');
   if(cartData){
-    this.cartitms= JSON.parse(cartData).length
+    this.cartItems= JSON.parse(cartData).length
   }
   this.product.cartData.subscribe((items)=>{
-    this.cartitms= items.length
+    this.cartItems= items.length
   })
 }
 
@@ -64,11 +64,16 @@ searchProduct(query:KeyboardEvent){
   })
   }
 }
-submitSaerch(val:string){
-  console.warn(val)
-  this.route.navigate([`search/${val}`])
-
+hideSearch(){
+  this.searchresult=undefined
 }
+
+
+submitSearch(val:string){
+  console.warn(val)
+this.route.navigate([`search/${val}`]);
+}
+
 redirectToDetails(id:number){
   this.route.navigate(['/product-details/'+id])
 }

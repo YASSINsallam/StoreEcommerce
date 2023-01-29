@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { product } from '../data-type';
 import { ProductService } from '../services/product.service';
+import { HttpClient,} from '@angular/common/http';
+
 
 @Component({
   selector: 'app-seller-add-product',
@@ -8,7 +10,8 @@ import { ProductService } from '../services/product.service';
   styleUrls: ['./seller-add-product.component.css']
 })
 export class SellerAddProductComponent implements OnInit{
-constructor(private product:ProductService){}
+  selectedFile :File= new File([], "default.png");
+constructor(private product:ProductService , private http:HttpClient){}
   ngOnInit(): void {}
 addproductMessage:string|undefined;
   submit(data: product) {
@@ -20,4 +23,19 @@ addproductMessage:string|undefined;
 
     })
   }
-}
+  onFileSelected(event:any) {
+    this.selectedFile = event.target.files[0];
+  }
+  onSubmit() {
+    const formData = new FormData();
+    if(this.selectedFile){
+      formData.append('image', this.selectedFile);
+      this.http.post('http://localhost:3000/products', formData)
+        .subscribe(res => {
+            console.log(res);
+        });
+    }else{
+      console.log("Please select a file")
+    }
+} }
+    

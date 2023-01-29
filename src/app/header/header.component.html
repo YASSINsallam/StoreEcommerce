@@ -1,36 +1,111 @@
-<nav class="nav">
-<h1><a routerLink="/">my Store</a></h1>
-<div  *ngIf="menuType==='default'"class="nav-search">
-    <input
-    #searchInput type="text"(keyup)="searchProduct($event)"class="search product">
-    <button 
-    (click)="submitSaerch(searchInput.value)">search</button>
+<!--  
+ <nav class="nav">
+  <h1><a routerLink="">STORE</a> </h1>
+  <div *ngIf="menuType!=='seller'" class="nav-search">
+    <input type="text"
+    #searchInput
+    (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="chercher un produit"/>
+    <button (click)="submitSearch(searchInput.value)" >Search</button>
     <ul class="suggested-search" *ngIf="searchresult">
       <li *ngFor="let item of searchresult">
         <a (mousedown)="redirectToDetails(item.id)" >{{item.name}}</a>
       </li>
     </ul>
-</div>
-<div [ngSwitch]="menuType">
-<ul *ngSwitchCase="'default'" >
-  <li><a routerLink="seller-auth">Seller</a></li>
-  <li><a routerLink="">Home</a></li>
-  <li><a routerLink="user-auth">Login/Sign-up</a></li>
-  <li><a href="#">Cart</a></li>
-</ul>
-<ul *ngSwitchCase="'user'" >
-  <li><a routerLink="seller-auth">Seller</a></li>
-  <li><a routerLink="">Home</a></li>
-  <li><a>{{userName| titlecase}}</a></li>
-  <li><a routerLink="my-orders">My Orders</a></li>
-  <li><a (click)="userLogout()">Logout</a></li>
-  <li><a [routerLink]="">Panier({{cartitms}})</a></li>
-</ul>
-<ul *ngSwitchCase="'seller'" >
-  <li><a routerLink="seller-add-product">add-product</a></li>
-  <li><a routerLink="seller-home">list</a></li>
-  <li><a (click)="logout()">logout</a></li>
-  <li><a href="#" >{{sellerName | titlecase }}</a></li>
-</ul>
-</div></nav>
+  </div>
+ <div [ngSwitch]="menuType">
+  <ul *ngSwitchCase="'default'" >
+    <li><a routerLink="seller-auth">seller</a></li>
+    <li><a routerLink="">Accueil</a></li>
+    <li><a routerLink="user-auth">Login/Sign-up</a></li>
+    <li><a href="#">Cart({{cartItems}})</a></li>
+    <li><a href="contact">Contact</a></li>
+  </ul>
+  <ul *ngSwitchCase="'user'" >
+    <li><a routerLink="seller-auth">Seller</a></li>
+    <li><a routerLink="">Home</a></li>
+    <li><a>{{userName | titlecase}}</a></li>
+    <li><a routerLink="my-orders" >My Orders</a></li>
+    <li><a (click)="userLogout()" >Logout</a></li>
+    <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
+  </ul>
+  <ul *ngSwitchCase="'seller'">
+    <li><a routerLink="seller-add-product">Add Product</a></li>
+    <li><a routerLink="seller-home">List</a></li>
+    <li><a (click)="logout()">Logout</a></li>
+    <li><a href="#">{{sellerName | titlecase}}</a></li>
+  </ul>
+ </div>
+</nav> -->
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+    <div *ngIf="menuType!=='seller'" ></div>
+    <a class="navbar-brand" href="#">Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div [ngSwitch]="menuType">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" *ngSwitchCase="'default'">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="">Accueil</a>
+        </li>
+        <li  class="nav-item">
+          <a class="nav-link" routerLink="seller-auth">seller</a>
+        </li>
+        <li  class="nav-item">
+          <a class="nav-link" routerLink="user-auth">Login/SignUp</a>
+        </li>
+        <li  class="nav-item">
+          <a class="nav-link" routerLink="">Cart({{cartItems}})</a>
+        </li>
+        <li  class="nav-item">
+          <a class="nav-link" routerLink="contact">contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ||||
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">yassine</a></li>
+            <li><a class="dropdown-item" href="#">catégores</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">site web d'achat en ligne</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul    class="navbar-nav me-auto mb-2 mb-lg-0"*ngSwitchCase="'user'" >
+        <li class="nav-item"><a class="nav-link" routerLink="seller-auth">Seller</a></li>
+        <li class="nav-item"><a class="nav-link"routerLink="">Home</a></li>
+        <li class="nav-item"><a class="nav-link">{{userName | titlecase}}</a></li>
+        <li class="nav-item"><a  class="nav-link" routerLink="my-orders" >MyOrders</a></li>
+        <li class="nav-item"><a  class="nav-link" (click)="userLogout()" >Logout</a></li>
+        <li class="nav-item"><a class="nav-link" [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
+      </ul>
+      <ul *ngSwitchCase="'seller'">
+        <li><a routerLink="seller-add-product">Add Product</a></li>
+        <li><a routerLink="seller-home">List</a></li>
+        <li><a (click)="logout()">Logout</a></li>
+        <li><a href="#">{{sellerName | titlecase}}</a></li>
+      </ul>
+      </div>
+     
+      <div *ngIf="menuType!=='seller'" class="nav-search" style="width: 100%; float: right;">
+        
+      <div class="d-flex   text-end" style="width: 60%; float: right;">
+        <input class="form-control ml-3 me-2"    #searchInput
+        (keyup)="searchProduct($event)" (blur)="hideSearch()" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success"  (click)="submitSearch(searchInput.value)" type="submit">Search</button>
+      
+      <ul class="nav-item" class="suggested-search" *ngIf="searchresult">
+        <li *ngFor="let item of searchresult">
+          <a  class="nav-link" (mousedown)="redirectToDetails(item.id)" >{{item.name}} &&& {{item.id}}</a>
+        </li>
+      </ul>
+    
+    </div>
+      </div>
 
+    </div>
+</nav>
+   </div>

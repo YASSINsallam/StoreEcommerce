@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { product } from '../data-type';
 import { ProductService } from '../services/product.service';
-import { faTrash ,faEdit} from '@fortawesome/free-solid-svg-icons';
+import { faTrash ,faEdit,faPlus} from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-seller-home',
   templateUrl: './seller-home.component.html',
@@ -14,6 +14,7 @@ export class SellerHomeComponent implements OnInit {
   deletMessage: undefined | string;
   icon=faTrash;
   editicone=faEdit;
+  plusicone=faPlus;
 
   ngOnInit(): void {
     this.List()

@@ -7,19 +7,55 @@
     margin-bottom: 40px;
     border: 1px solid #ccc;
 }
+.product-item img {
+    width: 100%;
 
-.product-item img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: transform 0.2s ease-in-out;
+    height: 200px;
+  }
+  
+  .product-item img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+/* .product-item img{
     width: 100%;
     height: 300px;
     object-fit: contain;
-}
+} */
 
-.product-item .product-details {
+/* .product-item .product-details {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 15px;
-}
-
+} */
+ 
+.product-item .product-details {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .product-item:hover .product-details {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .product-item .product-details h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-item .product-details p {
+    margin-bottom: 10px;
+  }
+  
 .product-item .name-head{
     font-size: 20px;
     font-weight: 600;
@@ -27,8 +63,54 @@
 .product-item h6{
     text-align: center;
 }
-.product-item .product-footer{
+/* .product-item .product-footer{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+} */
+.product-item .product-footer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    justify-content: space-between;
+  }
+  
+  .product-item .product-footer .price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .product-item .product-footer .add-to-cart {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .product-item .product-footer .add-to-cart:hover {
+    background-color: #0069d9;
+  }
+  
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+    background-color: #69cbd8;
+}
+.raw{
+  margin-top: 30%;
+  transform: translate(50px, 100px);
+  position: relative;
+  left: 50px;
+  top: 100%;
 }

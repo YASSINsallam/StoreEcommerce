@@ -2,9 +2,20 @@
     text-align:center;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: #ee1616;
+    background-color: aqua;
 }
 .checkout h3{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.h4{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ee1616;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }

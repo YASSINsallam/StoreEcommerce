@@ -21,6 +21,10 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
+import { ContactComponent } from './contact/contact.component';
+
+
+
 const routes:Routes=[
   {path:"",
 component:HomeComponent
@@ -47,8 +51,8 @@ component:HomeComponent
   component:FooterComponent,
   path:'footer'
 },{
-  component:ProductDetailsComponent,
-  path:'product-details/:productId'
+  path:'product-details/:productId' , component:ProductDetailsComponent,
+
 },{
   component:UserAuthComponent,
   path:'user-auth'
@@ -61,6 +65,9 @@ component:HomeComponent
 },{
   component:MyOrdersComponent,
   path:'my-orders'
+},{
+  component:ContactComponent,
+  path:'contact'
 }
 ]
 @NgModule({
@@ -79,10 +86,11 @@ component:HomeComponent
     
     CheckoutComponent,
     MyOrdersComponent,
+    ContactComponent,
     
   ],
   imports:[RouterModule.forRoot(routes),CommonModule, BrowserModule,FormsModule,HttpClientModule, FontAwesomeModule, NgbModule],
-  exports:[RouterModule],
+  exports:[RouterModule,  FontAwesomeModule],
   
   providers: [],
   bootstrap: [AppComponent]

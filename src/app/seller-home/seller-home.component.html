@@ -1,5 +1,42 @@
-<div class="product-list">
-  <h1> All Product List</h1>
+
+<style>
+  h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: blueviolet;
+    float: left;
+    margin-top: 0%;
+    
+    padding: 30px;
+    min-width: 160pxs;
+  }
+  .product-list {text-align: centre;
+  padding-left:50px;
+padding-right: 20%;
+margin-left: 50px;}
+  .product-list h1 a { 
+    font-size: 36px;
+    font-weight: bold;
+    color: blueviolet;
+    float: right;
+    margin-top: 0%;
+    padding: 1px;
+    min-width: 160pxs;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .product-list h1 a:hover {
+    color: rgb(0, 38, 255);
+
+  }
+
+</style>
+
+
+
+<div class="product-list" >
+  <h1> tout les produits</h1>
+  <h1 ><a routerLink="/seller-add-product"><fa-icon [icon]="plusicone"></fa-icon>produit</a></h1>
   <p class="message-p">{{deletMessage}}</p>
 
   <table>

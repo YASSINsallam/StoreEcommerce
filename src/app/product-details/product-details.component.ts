@@ -14,18 +14,21 @@ export class ProductDetailsComponent implements OnInit {
   productQuantity:number=1;
   removeCart=false;
   cartData:product|undefined;
+  productId: any ;
   constructor( private activeRoute:ActivatedRoute,private product :ProductService){}
 ngOnInit(): void {
-  let productId=this.activeRoute.snapshot.paramMap.get('productId');
-  productId && this.product.getProduct(productId).subscribe((res)=>{
+  this.productId=this.activeRoute.snapshot.paramMap.get('productId');
+  this.product.getProduct(this.productId).subscribe((res)=>{
     if(res){ 
     this.productData=res;
+    console.log(this.productId);
+    
     }
   })
   let cartData = localStorage.getItem('localCart');
-  if(productId && cartData){
+  if(this.productId && cartData){
     let items = JSON.parse(cartData);
-    items = items.filter((item:product)=>productId=== item.id.toString());
+    items = items.filter((item:product)=>this.productId=== item.id.toString());
     if(items.length){
       this.removeCart=true
     }else{
