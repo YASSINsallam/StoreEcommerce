@@ -134,24 +134,6 @@
   ],
   "products": [
     {
-      "name": "Samsung m 40 a ",
-      "price": "550",
-      "category": "mobile",
-      "color": "white",
-      "description": "this is a Samsung product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": 1
-    },
-    {
-      "name": "I phone 14",
-      "price": "100000",
-      "category": "mobile",
-      "color": "black",
-      "description": "An Apple Product",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": 2
-    },
-    {
       "name": "HP Laptop",
       "price": "50000",
       "category": "Laptop",
@@ -407,6 +389,12 @@
       "email": "sallamyassine86@gmail.com",
       "password": "yassin",
       "id": 23
+    },
+    {
+      "name": "hamza",
+      "email": "hamza@gmail.com",
+      "password": "hamza",
+      "id": 24
     }
   ],
   "cart": [
@@ -613,6 +601,54 @@
       "productId": 1,
       "userId": 14,
       "id": 23
+    },
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "category": "mobile",
+      "color": "white",
+      "description": "this is a Samsung product",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 14,
+      "id": 24
+    },
+    {
+      "name": "watch",
+      "price": "3000dh",
+      "category": "mgana",
+      "color": "noir",
+      "description": "smarthwatch 3 gb 100 gb stock wahtsab facebook ",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "quantity": 1,
+      "productId": 16,
+      "userId": 14,
+      "id": 25
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "3000",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Best shoes for Running",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "quantity": 1,
+      "productId": 4,
+      "userId": 14,
+      "id": 26
+    },
+    {
+      "name": "ordinateur",
+      "price": "300000",
+      "category": "pc ",
+      "color": "white",
+      "description": "12 gben ram 256 gb SSD 12 G",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 1,
+      "productId": 14,
+      "userId": 14,
+      "id": 27
     }
   ],
   "orders": [

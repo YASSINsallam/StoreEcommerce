@@ -1,11 +1,13 @@
 footer {
-    background-color: #3F51B5;
+    background-color: #202125d2;
     color: #fff;
     padding: 40px 0;
     margin :100px;
     width:100%;
     text-align: center;
     margin-left: 0%;
+    margin-bottom: 0%;
+    height: 300px; 
 }
 footer h3 {
     color: #fff;

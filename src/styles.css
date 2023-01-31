@@ -11,14 +11,14 @@ body {
 .form-input {
   height: 35px;
   margin-bottom: 20px;
-  border: 1px solid blueviolet;
+  border: 1px solid rgb(15, 106, 190);
   padding-left: 15px;
-  color: blueviolet;
+  color: rgb(43, 92, 226);
 }
 .form-button {
   height: 35px;
-  border: 1px solid blueviolet;
-  color: blueviolet;
+  border: 1px solid rgb(43, 101, 226);
+  color: rgb(9, 58, 192);
   cursor: pointer;
 }
 .error-p{

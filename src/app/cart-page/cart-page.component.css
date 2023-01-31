@@ -42,7 +42,7 @@
 }
 .summary h3{
     text-align: center;
-    color:blueviolet
+    color:rgb(28, 91, 230)
 }
 .summary h3:hover{
     color: aqua;

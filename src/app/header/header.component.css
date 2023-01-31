@@ -1,8 +1,11 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  white-space: nowrap;
 }
-
+.navbar-nav{
+  white-space: nowrap;
+}
 .nav h1 {
   color: blueviolet;
   margin: 0;
@@ -86,3 +89,9 @@ h1 a{
 .nav-link:hover {
   color: red;
 }
+.product-img {   
+width: 200px;
+height: 200px;
+border-radius: 10px;
+box-shadow: 2px 2px 5px #ccc;
+filter: grayscale(50%);}
